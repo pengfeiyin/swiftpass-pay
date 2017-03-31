@@ -1,0 +1,24 @@
+{
+    "name": "mztli/swiftpass-pay",
+    "license": "MIT",
+    "keywords": ["wechat","pay"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Maotao",
+            "email": "mzt.live@live.com"
+        }
+    ],
+    "autoload" :{
+        "psr-4":{
+            "SwiftPass\\" : "src/"
+        }
+    },
+    "require": {
+        "rmccue/requests": "^1.7",
+        "particle/validator": "^2.2"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"5.5.*"
+    }
+}
